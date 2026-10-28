@@ -1,0 +1,11 @@
+{
+  "name": "pocket-sampler",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Phone-friendly audio sampler web app",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test": "node --test tests/*.test.js"
+  }
+}
